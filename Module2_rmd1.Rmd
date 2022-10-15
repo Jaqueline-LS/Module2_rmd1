@@ -3,8 +3,8 @@ title: "Module2_rmd1"
 author: "Jaqueline"
 date: "2022-10-13"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 
@@ -60,3 +60,19 @@ knitr::kable(head(cars),
 ## Insert a equation
 
 $$ Y = \beta_0 + \beta_1x $$
+
+## Insert Images
+![Sunstar](sunstar.png)
+
+
+## Insert notes with footnotes
+
+Here is footnote reference [^1] and another [^longnote]
+
+Here is an inline footnote^[Inline notes are much easier because you don't have to pick an identifier and move down to type the note]
+
+
+
+
+[^1]: Here is the footnote
+[^longnote]: Here is one with multiple blocks.
