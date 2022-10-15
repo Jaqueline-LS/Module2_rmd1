@@ -4,6 +4,7 @@ author: "Jaqueline"
 date: "2022-10-13"
 output:
   html_document: default
+  pdf_document: default
   word_document: default
 ---
 
@@ -34,4 +35,19 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
+```{r pressure2, echo=FALSE, fig.height=4, fig.width=4, warning=FALSE}
+plot(pressure)
+```
+
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Insert tables
+```{r}
+knitr::kable(head(cars),
+             caption = "Top six rows of Cars Dataset")
+```
+
+
+## Insert a equation
+
+$$ Y = \beta_0 + \beta_1x $$
