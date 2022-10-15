@@ -23,6 +23,15 @@ This is an _R Markdown_ document. **Markdown** is a simple formatting syntax for
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 ```
 
+## Making some list
+* Olá
+    - oi
+1. Olá
+    i. Oi
+    
+## Here is an exemple of block quotes
+> The earth is a very small stage in a vast cosmic arena
+> Think of the river of blood splied by those generals so they could become the momentery master of a fraction of a dot
 ```{r cars}
 summary(cars)
 ```
